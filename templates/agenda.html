@@ -12,9 +12,16 @@
                 <div style={% if evento.get_evento_atrasado %}
                                 "color:red"
                             {% endif %}>
-                    {{evento.titulo}} - {{evento.get_data_evento}}
-                    ( <a href="evento/?id={{ evento.id }}">Editar</a>
-                    / <a href="evento/delete/{{ evento.id }}/">Excluir</a>)
+                    {{evento.titulo}} - {{evento.get_data_evento}} - {{evento.descricao}}
+
+                    <a href="evento/?id={{ evento.id }}">
+                        <button type="button" >Editar</button>
+                    </a>
+
+                    <a href="evento/delete/{{ evento.id }}/">
+                        <button type="button">Excluir</button>
+                    </a>
+
                 </div>
             </li>
         {% endfor %}

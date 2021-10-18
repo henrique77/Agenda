@@ -4,10 +4,17 @@ O projeto consiste na costrução de uma agenda web para multi usuários, utiliz
 No primeiro acesso o usuário cria seu login e senha. Após estar logado, poderar inserir, visualizar, editar e remover eventos.
 Além do framework foi utilizado conceitos basicos para o desenvolvimento da aplicação, os principais são:
  - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/HTML5)
+ - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
  - [sqlite3](https://www.sqlite.org/index.html)
  - [Django admin](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/)
- 
-Em seguida será apresentado o cronograma de desenvolvimento do projeto.
+
+## Agenda em uso
+
+<div align="center">
+  <img src="./github/agendaDjango.gif" alt="home" height="425">
+</div>
+
+# cronograma de desenvolvimento do projeto
 
 ## Criando uma página de listagem
  - Configurar tamplates

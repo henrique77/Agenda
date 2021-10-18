@@ -5,15 +5,21 @@
     <title>Agenda</title>
 </head>
 <body>
-    <h1>Login</h1>
+    <h1 style="text-align:center; font-weight: bold">Conectar</h1>
     <form action="submit" method="POST">{% csrf_token %}
-        <div align="center">
-            <label>Usuário:</label>
-            <input type="text" name="username">
-            <label>Password:</label>
-            <input type="password" name="password">
-            <button type="submit">Entrar</button>
+        <div style="width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;">
+            <form>
+                <input type="text" name="username" placeholder="Usuário" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button>Entrar</button>
+            </form>
+
         </div>
+
     </form>
 
     {% for message in messages %}
@@ -21,6 +27,10 @@
             <strong>Erro! </strong>{{ message }}
         </div>
     {% endfor %}
+    <footer>
+        {% include "model-footer.html" %}
+    </footer>
+
 
 </body>
 </html>
