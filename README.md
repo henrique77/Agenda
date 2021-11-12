@@ -14,7 +14,7 @@ Além do framework foi utilizado conceitos basicos para o desenvolvimento da apl
   <img src="./github/agendaDjango.gif" alt="home" height="425">
 </div>
 
-# cronograma de desenvolvimento do projeto
+# Cronograma de desenvolvimento do projeto
 
 ## Criando uma página de listagem
  - Configurar tamplates
